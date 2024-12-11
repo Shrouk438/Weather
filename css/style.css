@@ -1,0 +1,249 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  .bg-body-tertiary {
+    background-color: #1e202b !important;
+    padding: 30px 0;
+  }
+  p.p-text {
+    color: #bfc1c8;
+    font-size: 10px;
+  }
+  .text-logo {
+    vertical-align: middle;
+  }
+  .nav-link {
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 5px;
+  }
+  .nav-link:hover {
+    color: #009ad8;
+    border: 2px solid #009ad8;
+  }
+  a#home {
+    color: #009ad8;
+    border: 2px solid #009ad8;
+  }
+  
+  .bg-img {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+  }
+  .location {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background: #1e202b;
+  }
+  .location::placeholder {
+    color: #bfc1c8cb;
+    font-size: 13px;
+  }
+  .find {
+    top: 5px;
+    bottom: 5px;
+    padding: 5px 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: #fff;
+  }
+  .form-control:focus {
+    color: #fff;
+    background: #1e202b;
+    outline: 0;
+    box-shadow: none;
+  }
+  footer {
+    padding: 50px 0;
+    color: #fff;
+    background: #262936;
+  }
+  .links a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    line-height: 2;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    transition: 0.3s ease;
+  }
+  .links a:hover {
+    background: #009ad8;
+    color: white;
+  }
+  .navbar-toggler-icon {
+    filter: invert(1);
+    background-color: transparent;
+  }
+  .navbar-toggler:hover {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #009ad8;
+    /* padding: 20px; */
+    border-radius: 50%;
+    transition: all 0.3s;
+    filter: invert(39%) sepia(94%) saturate(618%) hue-rotate(174deg)
+      brightness(97%) contrast(96%);
+  }
+  .navbar-toggler {
+    border: none transparent;
+  }
+  
+  @media (max-width: 1200px) {
+    .collapse .navbar-nav {
+      background: #262936;
+      list-style: none;
+      text-align: center;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .collapse .navbar-nav .nav-item {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-link:hover {
+      color: white;
+      border: none;
+    }
+    a#home {
+      border: none;
+    }
+  }
+  .par1 {
+    border-radius: 10px;
+    background-color: #323544;
+  }
+  .change1 {
+    color: #bfc1c8;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .day {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #2d303d;
+  }
+  
+  .day2 {
+    background-color: #222530;
+  }
+  .par2 {
+    border-radius: 10px;
+    background-color: #262936;
+  }
+  .color {
+    background-color: #1e202b;
+    width: 100%;
+    min-height: 50vh;
+  }
+  @media (max-width: 1000px) {
+    .color {
+      min-height: 180vh;
+    }
+  }
+  .text {
+    color: #009ad8;
+  }
+  .form a {
+    color: #bfc1c8;
+    top: 15px;
+    left: 30px;
+    transition: all 0.3s;
+  }
+  .form a:hover .home1 {
+    text-decoration: underline;
+  }
+  .bg-ground {
+    background-color: #1e202b;
+  }
+  .cont input {
+    background-color: #2d303d;
+  }
+  .cont input:focus {
+    color: #fff;
+    background-color: #2d303d;
+    outline: 0;
+    box-shadow: none;
+  }
+  .company {
+    color: #bfc1c8;
+    margin-top: 15%;
+    border-radius: 10px;
+    background-color: #2d303d;
+  }
+  .company1 {
+    height: 220px;
+  }
+  .company2 {
+    padding: 20px;
+    font-size: 12px;
+  }
+  .company2 a {
+    color: #bfc1c8;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .word p {
+    color: #bfc1c8;
+    font-size: 14px;
+  }
+  .contact-us {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .form1 input {
+    border-radius: 30px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 13px;
+  }
+  .form1 input:hover,
+  textarea.form-control:hover {
+    border-color: #009ad8;
+  }
+  .form1 input::placeholder,
+  textarea::placeholder {
+    color: #bfc1c8;
+    font-size: 12px;
+  }
+  textarea.form-control {
+    border-radius: 30px;
+    width: 100%;
+    padding: 12px;
+    color: white;
+    border: 2px solid #393c48;
+  }
+  .form-control::placeholder {
+    color: #bfc1c8;
+  }
+  .send input {
+    top: 100%;
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+  }
+  .padding {
+    padding-bottom: 10%;
+  }
